@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>NeedIt Properties</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 14:51:45</sys_created_on>
+        <sys_id>21392c360f2003002e5b943be1050e37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Properties</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_properties_category_21392c360f2003002e5b943be1050e37</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-16 14:51:45</sys_updated_on>
+        <title><![CDATA[<p> </p>
+<p><img style="align: baseline;" title="This is cool" src="sys_attachment.do?sys_id&#61;5bc920760f2003002e5b943be1050efe" alt="This is cool" align="baseline" border="0" hspace="-1" vspace="0" />Needit Configuration</p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=21392c360f2003002e5b943be1050e37"/>
+</record_update>
