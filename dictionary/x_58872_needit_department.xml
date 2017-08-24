@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Department" max_length="40" name="x_58872_needit_department" type="collection">
+        <element label="Department Name" max_length="40" name="department_name" type="string"/>
+        <element label="Details" max_length="40" name="details" type="string"/>
+        <element label="HOD Name" max_length="32" name="hod_name" reference="imp_user" reference_qual="first_nameSTARTSWITHP^EQ" reference_qual_condition="first_nameSTARTSWITHP^EQ" type="reference"/>
+        <index name="index">
+            <element name="hod_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Course" max_length="40" name="x_58872_needit_course" type="collection">
+        <element label="Batch Size" max_length="20" name="batch_size" type="decimal"/>
+        <element label="Course Name" max_length="40" name="course_name" type="string"/>
+        <element label="Duration (years)" max_length="20" name="duration_years" type="decimal"/>
+        <element label="Eligibility" max_length="40" name="eligibility" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element label="Available" value="Available"/>
+                <element label="Not Available" value="Not Available"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="status"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>status</col_name_string>
+        <index_col_name element="status" name="x_58872_needit_course">febdafd70f6003002e5b943be1050e88</index_col_name>
+        <logical_table_name>x_58872_needit_course</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-21 14:02:41</sys_created_on>
+        <sys_id>b5ae06500f3003002e5b943be1050ed0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_course</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_index_x_58872_needit_course_status</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-21 14:02:41</sys_updated_on>
+        <table display_value="Course" name="x_58872_needit_course">b96d231b0f6003002e5b943be1050ed7</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>
